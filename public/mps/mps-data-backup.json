@@ -1,78 +1,29 @@
-[
-    {
-        "rsid": "rs2476601",
-        "gene": "AP4B1-AS1,PTPN22",
-        "genotypes": [
-            {
-                "allele": "AA",
-                "magnitude": -3.2,
-                "phenotypes": ["Addison's Disease"],
-                "notes": "2x risk of rheumatoid arthritis and other autoimmune diseases"
-            },
-            {
-                "allele": "AG",
-                "magnitude": -2,
-                "phenotypes": ["Addison's Disease"],
-                "notes": "Increased Risk of Multiple Autoimmune Disorders"
-            },
-            {
-                "allele": "GG",
-                "magnitude": 0,
-                "phenotypes": [],
-                "notes": "Normal risk for autoimmune disorders"
-            }
-        ],
-        "notes": "On dbSNP, alleles are listed as A>G and A>T"
-    },
-    {
-        "rsid": "rs11571303",
-        "gene": null,
-        "genotypes": [],
-        "notes": "Original: Addison's Disease",
-        "wonky": true
-    },
-    {
-        "rsid": "rs1464510",
-        "gene": "LPP",
-        "genotypes": [
-            {
-                "allele": "AA",
-                "magnitude": null,
-                "phenotypes": ["Addison's Disease"]
-            }
-        ],
-        "notes": "Visible in SNPedia, but not much data. Further, the listed alleles on SNPedia (GG, GT, TT) do not match this. EVEN WORSE, on dbSNP, alleles are listed as C>A, C>G, C>T",
-        "wonky": true
-    },
-    {
-        "rsid": "rs3998178",
-        "gene": "HLA-DQA1,HLA-DQB1",
-        "genotypes": [],
-        "notes": "Original: Addison's Disease. On dbSNP, alleles are listed as C>T",
-        "wonky": true
-    },
-    {
-        "rsid": "rs10806425",
-        "gene": "BACH2",
-        "genotypes": [
-            {
-                "allele": "AA",
-                "magnitude": null,
-                "phenotypes": ["Addison's Disease"]
-            }
-        ],
-        "notes": "Original: Addison's Disease. On SNPedia, but not much data. SNPedia alleles are (AA, AC, CC), while dbSNP alleles are (C<A)",
-        "wonky": true
-    },
-    {
-        "rsid": "rs7137828",
-        "gene": "ATXN2",
-        "genotypes": [],
-        "notes": "Original: Addison's Disease. On SNPedia, but not much data. SNPedia alleles are (CC, CT, TT), while dbSNP alleles are C>A / C>G / C>T",
-        "wonky": true
-    }
-]
 {
+    "rs2476601": {
+        "phenotype": "Addison's Disease",
+        "pathogenic": ["AA", "AG"],
+        "gene": "AP4B1-AS1,PTPN22"
+    },
+    "rs11571303": {
+        "phenotype": "Addison's Disease",
+        "pathogenic": [],
+        "gene": null
+    },
+    "rs1464510": {
+        "phenotype": "Addison's Disease",
+        "pathogenic": ["AA"],
+        "gene": "LPP"
+    },
+    "rs3998178": {
+        "phenotype": "Addison's Disease",
+        "pathogenic": [],
+        "gene": "HLA-DQA1,HLA-DQB1"
+    },
+    "rs10806425": {
+        "phenotype": "Addison's Disease",
+        "pathogenic": ["AA"],
+        "gene": "BACH2"
+    },
     "rs7137828": {
         "phenotype": "Addison's Disease",
         "pathogenic": [],
@@ -446,11 +397,4 @@
         "pathogenic": ["TT"],
         "gene": "CYP21A2"
     }
-}
-{
-    "rs11571303": {
-        "phenotype": "Addison's Disease",
-        "pathogenic": [],
-        "gene": null
-    },
 }
